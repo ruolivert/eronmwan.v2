@@ -142,7 +142,7 @@ export function Homepage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-center text-[#f0e1c7]">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {['Mood Disorders', 'Anxiety', 'PTSD', 'ADD/ADHD'].map((service, index) => (
+            {['Mood Disorders', 'Anxiety', 'PTSD', 'ADD/ADHD'].map((service) => (
               <div key={service} className="bg-[#f0e1c7] rounded-lg shadow-md p-6 text-center">
                 <div className="w-24 h-24 mx-auto mb-4">
                   <Image
@@ -175,7 +175,7 @@ export function Homepage() {
             <div className="bg-[#657553] rounded-lg shadow-md p-6">
               <h3 className="text-xl font-semibold mb-4 text-[#f0e1c7]">Individualized Treatment Plans</h3>
               <p className="text-[#f0e1c7]">
-                We craft personalized treatment plans that recognize the uniqueness of each patient's experiences, 
+                We craft personalized treatment plans that recognize the uniqueness of each patients experiences, 
                 tailoring interventions to meet their specific needs.
               </p>
             </div>
